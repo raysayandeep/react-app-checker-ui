@@ -1,0 +1,87 @@
+[
+    {
+        "app_id": "APP-12345",
+        "app_name": "Example Application 1",
+        "app_description": "This is the description of Example Application 1",
+        "resources": [
+            {
+                "ec2_id": [
+                    "EC2_1",
+                    "EC2_2"
+                ],
+                "rds_id": [
+                    "RDS_1",
+                    "RDS_2"
+                ]
+            }
+        ]
+    },
+    {
+        "app_id": "APP-12346",
+        "app_name": "Example Application 2",
+        "app_description": "This is the description of Example Application 2",
+        "resources": [
+            {
+                "ec2_id": [
+                    "EC2_3",
+                    "EC2_4"
+                ],
+                "rds_id": [
+                    "RDS_3",
+                    "RDS_4"
+                ]
+            }
+        ]
+    },
+    {
+        "app_id": "APP-12347",
+        "app_name": "Example Application 3",
+        "app_description": "This is the description of Example Application 3",
+        "resources": [
+            {
+                "ec2_id": [
+                    "EC2_5",
+                    "EC2_6"
+                ],
+                "rds_id": [
+                    "RDS_5",
+                    "RDS_6"
+                ]
+            }
+        ]
+    },
+    {
+        "app_id": "APP-12348",
+        "app_name": "Example Application 4",
+        "app_description": "This is the description of Example Application 4",
+        "resources": [
+            {
+                "ec2_id": [
+                    "EC2_7",
+                    "EC2_8"
+                ],
+                "rds_id": [
+                    "RDS_7",
+                    "RDS_8"
+                ]
+            }
+        ]
+    },
+    {
+        "app_id": "APP-12349",
+        "app_name": "Example Application 5",
+        "app_description": "This is the description of Example Application 5",
+        "resources": [
+            {
+                "ec2_id": [
+                    "EC2_9",
+                    "EC2_10"
+                ],
+                "rds_id": [
+                    "RDS_9",
+                    "RDS_10"
+                ]
+            }
+        ]
+    }
+]
