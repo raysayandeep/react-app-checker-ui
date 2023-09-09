@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Routes, Route } from "react-router-dom";
 import React, { Component } from "react";
 import fdata from "../data/applist.json";
 import Appdetails from "./Appdetails";
@@ -59,7 +60,9 @@ export class Applications extends Component {
             );
           })}
         </div>
-        <Appdetails />
+        <Routes>
+          <Route path="/details" element={<Appdetails />} />
+        </Routes>
       </>
     );
   }
